@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+:root{
+    --primary-color:#7C3AED;
+    --secondary-color:#F3F4F6;
+    --dark-grey:#F3F4F6;
+
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+/** containers **/
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 400px;
+    margin: auto;
+}
+/** links **/
+.links{
+    text-decoration: none;
+    padding:0.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.6rem ;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem auto;
+}
+.secondary-link{
+    color: var(--primary-color );
+    border-radius: 0.6rem;
+    border: 1px solid var(--secondary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+a{
+    text-decoration: none;
+}
+.list-without-bulls{
+    list-style:none;
+    padding: 0rem;
+    
+}
+.list-inline{
+    display: inline;
+    
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 1rem;
+    margin: 0rem 7rem;
+    border-bottom-left-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 20px;
+}
+.navigation .link{
+    margin-left: 4rem;
+    color: white;
+    padding: 1rem;
+}
+.list-inline-bulls{
+    text-align: right;
+}
+.navigation .link-active{
+    font-size: 20px;
+}
+.main-img{    
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    height: 450px;
+}
+.main-heading{
+    max-width: 450px;
+    margin: auto;
+    color: var(--dark-grey);
+}
+.section h1{
+    text-align: center;
+}
+.section{
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin: 1rem 7rem;
+    border-radius: 1rem;
+}
+.section-off{
+    background-color: var(--dark-grey);
+    text-align: center;
+    padding: 1.2rem 1rem;
+    margin: 1rem 7rem;
+    border-radius: 1rem;
+}
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 1.2rem 1rem;
+    margin: 1rem 7rem;
+    border-top-right-radius: 1.3rem;
+    border-top-left-radius: 1.3rem;
+}
+.social-links{
+    text-align: center;
+}
+.footer .link{
+    display: inline;
+    color: white;
+    padding: 1rem;
+}
