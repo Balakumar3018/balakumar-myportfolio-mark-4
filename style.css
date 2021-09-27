@@ -92,7 +92,7 @@ a{
 .main-heading{
     max-width: 450px;
     margin: auto;
-    color: var(--dark-grey);
+    color: var(--primary-color);
 }
 .section h1{
     text-align: center;
@@ -129,3 +129,26 @@ a{
     color: white;
     padding: 1rem;
 }
+/*dummy blogs*/
+.dummy-blogs{
+    max-width: 800px;
+    margin: auto;
+}
+.dummy-blogs p{
+    margin-top: 1.5rem;
+}
+.dummy-blogs h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.dummy-blogs h2{
+    font-weight: 50px;
+    color:var(--primary-color);
+}
+.blogs-heading{
+    text-align: center;
+    font-size: 38px;
+    color:var(--primary-color);
+}
+
