@@ -127,25 +127,9 @@ a{
 .footer .link{
     display: inline;
     color: white;
-    padding: 1rem;
+    padding: 0.2rem 0rem;
 }
-/*dummy blogs*/
-.dummy-blogs{
-    max-width: 800px;
-    margin: auto;
-}
-.dummy-blogs p{
-    margin-top: 1.5rem;
-}
-.dummy-blogs h1{
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-}
-.dummy-blogs h2{
-    font-weight: 50px;
-    color:var(--primary-color);
-}
+
 .blogs-heading{
     text-align: center;
     font-size: 38px;
