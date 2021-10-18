@@ -135,4 +135,8 @@ a{
     font-size: 38px;
     color:var(--primary-color);
 }
+p {
+    max-width: 80%;
+    text-align:justify
+}
 
